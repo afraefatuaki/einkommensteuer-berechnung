@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section>
+        <p>STEUERBERECHNUNG FÜR EINKOMMENSTEUERPFLICHTIGE FÜR DIE JAHRE 2019 BIS 2021</p>
+        <p>Dies ist ein Programm zur Darstellung der Tarifhistorie. Sie können die Tarife ab 1958 ansehen und benutzen.
+        </p>
+        <form action="">
+
+
+
+            <label for="quantity">zu versteuerndes Einkommen (zvE):</label>
+            <input type="number" id="income" name="quantity"><br><br>
+
+            <input type="radio" id="married" name="Verhältnisse" value="" checked>
+            <label for="huey"> verheiratet / verpartnert</label>
+            <input type="radio" id="single" name="Verhältnisse" value="" checked>
+            <label for="huey">alleinstehend</label><br><br>
+
+            <label for="year">Berechnungsjahr:</label>
+            <select name="" id="year">
+                <option id="year1" value="2019">2019</option>
+                <option id="year2" value="2020">2020</option>
+                <option id="year3" value="2021">2021</option>
+            </select><br><br>
+
+            <button type="button" id="" onclick="calculation()">Berechnen</button>
+        </form>
+        <p id="result">-</p>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
