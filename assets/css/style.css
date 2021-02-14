@@ -1,6 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&display=swap');
 /* font-family: 'Barlow', sans-serif; */
+/* Olive: #A3BCB6
+
+Green Leaf: #39603D
+
+Brown Grey: #3C403D
+
+Tanly: #DADED4
+
+White: #FFFFFF */
+
 body{
+    margin: 0px;
     font-family: 'Barlow', sans-serif; 
-    font-weight: 300; 
+    font-weight: 400; 
+    background-color:  #DADED4;
+    color: #3C403D;
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    height: 100vh;
+    width: 20vw;
+    background-color:  #A3BCB6;
+   
+}
+
+section{
+    line-height: 25px;
+    padding-top: 7%;
+    background-color:  #DADED4;
+    height: 30vh;
+    
+}
+p:first-of-type{
+    color: #39603D;
+    font-weight: 500;
+    line-height: 35px;
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+}
+label{
+    font-weight: 500;
+}
+input[type="number" i]{
+    margin-top: 20px;
+    max-width: 35%;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+#single{
+    margin-left: 7%;
+}
+article{
+    border-top: 2px solid #4f484675
+}
+button{
+    padding: 15px 37px;
+    background-color: #164A41;
+    color:  #f0f0f0;
+   margin-top: 8%;
+    border-radius: 5px;
+  
+}
+button:hover{
+    background-color: #A3BCB6;
+    color:  #131212;
+}
+#result{
+    color: black;
+    background-color: #f0f0f065;
+    border: 1px solid transparent;
+    max-width: 17%;
+    padding: 15px 22px;
+    border-radius: 5px;
 }

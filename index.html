@@ -10,15 +10,17 @@
 </head>
 
 <body>
+    <div></div>
     <section>
-        <p>STEUERBERECHNUNG FÜR EINKOMMENSTEUERPFLICHTIGE FÜR DIE JAHRE 2019 BIS 2021</p>
-        <p>Dies ist ein Programm zur Darstellung der Tarifhistorie. Sie können die Tarife ab 1958 ansehen und benutzen.
+        <p>Steuerberechnung für Einkommensteuerpflichtige <br>für die Jahre 2019 bis 2021:</p>
+        <p>Dies ist ein Programm zur Darstellung der Tarifhistorie. Sie können die Tarife <br>ab 1958 ansehen und
+            benutzen.
         </p>
         <form action="">
 
 
 
-            <label for="quantity">zu versteuerndes Einkommen (zvE):</label>
+            <label for="quantity">zu versteuerndes Einkommen (zvE):</label><br>
             <input type="number" id="income" name="quantity"><br><br>
 
             <input type="radio" id="married" name="Verhältnisse" value="" checked>
@@ -32,11 +34,13 @@
                 <option id="year2" value="2020">2020</option>
                 <option id="year3" value="2021">2021</option>
             </select><br><br>
+            <article></article>
 
             <button type="button" id="" onclick="calculation()">Berechnen</button>
         </form>
-        <p id="result">-</p>
+        <p id="result"> </p>
     </section>
+    <div>-</div>
     <script src="assets/js/main.js"></script>
 </body>
 
